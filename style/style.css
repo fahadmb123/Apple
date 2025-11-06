@@ -1,0 +1,50 @@
+
+.img-apple-logo{
+    width: 22px;
+    height: 25px;
+    margin-left: 125px;
+}
+.navebar{
+    margin-left: 33px;
+}
+.header{
+    font-size: 17px;
+}
+body{
+    margin: 0;
+    background-color: rgb(0 0 0);
+}
+.section-3{
+    background-color: #f5f5f7;
+}
+.bg-10-btn{
+    width: 125px;
+    height: 45px;
+    background-color: rgb(43, 42, 42);
+}
+.bg-10-btn:hover{
+    background-color: black;
+}
+.bottum-carosel-table{
+    display: flex;
+    animation: fadeIn 2s forwards;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(4rem);
+    }to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.footer-last-link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.56);
+}
+.footer-last-link:hover{
+    text-decoration: underline;
+}
+nav{
+    position: fixed;
+}
